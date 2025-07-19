@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Jokenpô</title>
+</head>
+<body>
+    <h1>Jokenpô</h1>
+
+    <div class="container">
+        <p class="result"></p>
+
+        <h3>Sua pontuação: <span class="my-points">0</span></h3>
+        <h3>Pontuação do JavaScript: <span class="machine-points">0</span></h3>
+    </div>
+
+    <div class="bottons">
+        <button class="button-rock" onclick="playHuman('rock')"><img src="./assets/pedra.gif" alt="Jokenpô_Rock"></button>
+        <button class="button-paper" onclick="playHuman('paper')"><img src="./assets/papel.gif" alt="Jokenpô_Paper"></button>
+        <button class="button-scissors" onclick="playHuman('scissors')"><img src="./assets/tesoura.gif" alt="Jokenpô_scissors"></button>
+    </div>
+
+</body>
+<script src="./scripts.js"></script>
+</html>

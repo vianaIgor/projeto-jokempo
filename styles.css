@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Exile&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Exile", system-ui;
+    font-family: "Permanent Marker", cursive;
+}
+
+body{
+    background-image: url(./assets/fundo.jpg);
+    
+
+}
+
+h1{
+    font-family: "Exile", system-ui;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+h3{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+p{
+    font-family: "Permanent Marker", cursive;
+    text-align: center;
+    font-size: 70px;
+    color: #ffffff;
+    
+}
+
+.my-points{
+    color: #08f04e;
+}
+
+.machine-points{
+    color: #f0cd08;
+}
+
+.container{
+    margin-top: 200px;
+}
+
+.bottons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 180px;
+    
+}
+
+.button-rock{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.button-rock:hover{
+    opacity: 0.5;
+}
+.button-rock:active{
+    opacity: 0.8;
+}
+
+.button-paper{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.button-paper:hover{
+    opacity: 0.5;
+}
+.button-paper:active{
+    opacity: 0.8;
+}
+
+.button-scissors{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+    transition: 0.3s;
+}
+
+.button-scissors:hover{
+    opacity: 0.5;
+}
+.button-scissors:active{
+    opacity: 0.8;
+}
