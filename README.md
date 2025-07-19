@@ -1,4 +1,4 @@
-<h1>Projeto Jokempo</h1>
+<h1>Projeto Jokenpô</h1>
 <h2>esse projeto foi desenvolvido apenas para desktop.</h2>
 <a href="https://vianaigor.github.io/projeto-jokempo/">Demonstração do projeto</a>
 
