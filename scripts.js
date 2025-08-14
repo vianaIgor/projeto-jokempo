@@ -14,7 +14,7 @@ const playHuman = (humanChoice) => {
 }
 
 const playMachine = () => {
-    const choices = ['rock', 'paper', 'scissors']
+    const choices = ['Pedra', 'Papel', 'Tesoura']
     const randomNumber = Math.floor(Math.random() * 3)
 
     return choices[randomNumber]
@@ -28,9 +28,9 @@ const playTheGame = (human, machine) => {
 
     if (human === machine) {
         result.innerHTML = "deu empate"
-    }else if ( human === 'rock' && machine === 'scissors' ||
-        human === 'paper' && machine === 'rock' ||
-        human === 'scissors' && machine === 'paper'
+    }else if ( human === 'Pedra' && machine === 'Tesoura' ||
+        human === 'Papel' && machine === 'Pedra' ||
+        human === 'Tesoura' && machine === 'Papel'
     ) {
         result.innerHTML = "Voce ganhou!"
         myPointsNumber++
