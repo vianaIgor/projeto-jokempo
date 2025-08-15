@@ -125,4 +125,87 @@ p{
 .img-reset{
     width: 100px;
 }
+   @media screen and (max-width: 900px){
+        body{
+            width: 100%;
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-position: center center;
+        }
+        h1{
+            font-size: 50px;
+        }
+
+        h3{
+            font-size: 20px;
+        }
+
+        p{
+            font-size: 40px;
+        }
+
+        .result-machine{
+            font-size: 20px;
+        }
+
+        .my-points{
+            font-size: 20px;
+        }
+
+        .machine-points{
+            font-size: 20px;
+        }
+
+        .container{
+            margin-top: 100px;
+        }
+
+        .bottons{
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            flex-direction: row;
+        }
+
+        .reset{
+            margin-right: 10px;
+            width: 50px;
+            height: 50px;
+        }
+
+        .img-reset{
+            width: 50px;
+            height: 50px;
+            
+        }
+
+        .button-rock, .button-paper, .button-scissors, .reset{
+            width: 80px;
+            height: 80px;
+        }
+        .button-rock img, .button-paper img, .button-scissors img{
+            width: 80px;
+            height: 80px;
+        }
+
+        .button-rock:hover, .button-paper:hover, .button-scissors:hover, .reset:hover{
+            opacity: 0.5;
+        }
+        .button-rock:active, .button-paper:active, .button-scissors:active, .reset:active{
+            opacity: 0.8;
+        }
+
+        .container1{
+            
+            align-content: center;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px;
+            
+        }
+
+    }
 
