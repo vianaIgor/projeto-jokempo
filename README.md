@@ -1,5 +1,5 @@
 <h1>Projeto Jokenpô</h1>
-<h2>esse projeto foi desenvolvido apenas para desktop.</h2>
+<h2>Projeto responsivo.</h2>
 <a href="https://vianaigor.github.io/projeto-jokempo/">Demonstração do projeto</a>
 
 <img src="https://github.com/vianaIgor/projeto-funcions/blob/master/assets/desktop.png?raw=true" />
